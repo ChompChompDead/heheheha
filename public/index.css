@@ -21,11 +21,16 @@ body {
     margin-bottom: 2px;
 }
 
+#url-target {
+    text-align: center;
+    width: 20%;
+}
+
 #iurl {
     background-color: inherit;
     width: 100%;
     height: 28px;
-    border: solid 1px #FFF;
+    border: solid 1px rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #eee;
@@ -33,7 +38,7 @@ body {
     margin-bottom: 5px;
     box-sizing: content-box;
     text-align: center;
-    border-radius: 25% 10%;
+    border-radius: 18px;
 }
 
 #btn {
@@ -47,7 +52,7 @@ body {
     padding: 8px 0px;
     box-sizing: content-box;
     transition: 0.3s;
-    border-radius: 25% 10%;
+    border-radius: 18px;
 }
 
 #btn:hover {
@@ -73,6 +78,6 @@ body {
 }
 
 .url {
-    width: 300px;
+    width: 500px;
     margin: auto;
 }
